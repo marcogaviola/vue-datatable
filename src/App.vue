@@ -1,13 +1,11 @@
 <template>
   <v-app>
-    <v-app id="inspire">
     <v-card>
       <v-card-title>
-        Nutrition
         <v-spacer></v-spacer>
         <v-text-field
           v-model="search"
-          append-icon="search"
+          append-icon="mdi-magnify"
           label="Search"
           single-line
           hide-details
